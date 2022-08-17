@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: white;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.values{
+     display: flex;
+    flex-direction: row;
+}
+input{
+    margin: 0 5px;
+}
+.values p, .values button{
+    margin: 5px 5px 5px  5px;
+}
+#copied{
+    margin :0;
+}
+
+main{
+    background: linear-gradient(to left top, #0000FF, #ff0000);
+    height: 90vh;
+}
