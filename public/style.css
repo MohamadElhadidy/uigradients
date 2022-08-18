@@ -26,6 +26,6 @@ input{
 }
 
 main{
-    background: linear-gradient(to left top, #0000FF, #ff0000);
+    background: linear-gradient(to right, #0000FF, #ff0000);
     height: 90vh;
 }
