@@ -8,7 +8,7 @@ var button = document.querySelector("button");
 
 
 function changeGradient() {
-  main.style.background = `linear-gradient(to left top, ${color1.value}, ${color2.value} )`;
+  main.style.background = `linear-gradient(to right, ${color1.value}, ${color2.value} )`;
 
   value1.textContent = color1.value;
   value2.textContent = color2.value;
@@ -16,7 +16,7 @@ function changeGradient() {
 }
 
 function copyGradient() {
-   let background = `linear-gradient(to left top, ${color1.value}, ${color2.value} )`;
+   let background = `linear-gradient(to right, ${color1.value}, ${color2.value} )`;
    navigator.clipboard.writeText(background);
    copied.textContent = "Copied";
 }
